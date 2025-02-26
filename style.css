@@ -1,0 +1,203 @@
+body{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    margin: 0;
+    position: relative;
+    background: no-repeat center center fixed;
+    background-size: cover;
+}
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+.content {
+  position: relative;
+  z-index: 1;
+}
+header{
+    height: 3rem;
+    color: white;
+}
+.ptserif{
+    font-family: 'PT Serif', serif;
+}
+.hcont{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.hcontright{
+    display: flex;
+    gap: 1rem; 
+    padding-top: 0.7rem;
+}
+.hcontleft{
+    display: flex;
+    gap: 0.5rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: border 0.1s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a:hover{
+    box-shadow: white;
+    transform: scale(1.1);
+}
+.whead{
+    height: 20%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.hgrid{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.hgridcol{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+}
+.hpic{
+    height: 42px;
+    width: 42px;
+}
+.cpic{
+    height: 250px;
+    width: 250px;
+    
+}
+.hgridcont{
+    padding: 1rem;
+}
+.corsfont{
+    font-family: 'Croissant One', cursive;
+}
+.fade-in-element {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;  
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .hcl1{
+    padding-top: 0.7rem;
+  }
+  .picnam{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+  }
+  .formm{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    text-align: center;
+  }
+  .formc{
+    align-items: center;
+    text-align: center;
+  }
+  
+  ::placeholder{
+    text-align: center;
+    color: white;
+  } 
+  input{
+    background: none;
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: width 0.2s;
+  }
+  /* input:hover{
+    background: black;
+    width: 17rem ;
+  }
+  input:focus{
+    background: black;
+    width: 17rem;
+  } */
+  
+  .ifw{
+    width: 15rem;
+    height: 2rem;
+  }
+  .ifw:hover{
+    background: black;
+    width: 17rem ;
+  }
+  .ifw:focus{
+    background: black;
+    width: 17rem;
+  }
+  .submitb:hover{
+    background: black;
+    width: 5rem;
+  }
+  .submitb{
+    width: 4rem;
+    transition: width 0.2s;
+  }
+
+  .input {
+    display: flex;
+    color: white;
+    justify-content: center;
+    position: relative;
+    margin-top: 0px;
+  }
+  
+  .input2 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    position: relative;
+    margin-top: 190px;
+  }
+  .up {
+    width: 400px;
+    height: 30px;
+  }
+  .input2 h2 {
+    font-size: 2rem;;
+  }
+  
+  .input3{
+    justify-content: center;
+    display: flex;
+  }
+  
+  .but {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border-color: white;
+    height: 25px;
+    width: 100px;
+    margin-top: 20px;
+  }
+  
+
